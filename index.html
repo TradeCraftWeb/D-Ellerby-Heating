@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D Ellerby Heating | Oil Boiler & Heat Pump Specialists in Spilsby</title>
+  <meta name="description" content="D Ellerby Heating — your trusted local heating engineer in Spilsby, Lincolnshire. Specialists in oil boiler installation, servicing & repair, and air source heat pump technology. Get a free, no-obligation quote today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ NAV ═══════════════ -->
+  <header id="site-header" class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#hero" class="nav__logo" id="nav-logo">
+        <span class="nav__logo-icon" aria-hidden="true">🔥</span>
+        <span>D Ellerby <strong>Heating</strong></span>
+      </a>
+      <ul class="nav__links" id="nav-links" role="list">
+        <li><a href="#services" id="nav-services">Services</a></li>
+        <li><a href="#about" id="nav-about">About</a></li>
+        <li><a href="#testimonials" id="nav-testimonials">Reviews</a></li>
+        <li><a href="#contact" id="nav-contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--outline btn--sm" id="nav-cta">Get a Quote</a>
+      <button class="nav__burger" id="nav-burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div class="nav__drawer" id="nav-drawer" aria-hidden="true">
+    <ul role="list">
+      <li><a href="#services" class="drawer-link" id="drawer-services">Services</a></li>
+      <li><a href="#about" class="drawer-link" id="drawer-about">About</a></li>
+      <li><a href="#testimonials" class="drawer-link" id="drawer-testimonials">Reviews</a></li>
+      <li><a href="#contact" class="drawer-link" id="drawer-contact">Contact</a></li>
+      <li><a href="#contact" class="btn btn--primary btn--full" id="drawer-cta">Get a Free Quote</a></li>
+    </ul>
+  </div>
+  <div class="nav__overlay" id="nav-overlay"></div>
+
+  <main>
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section id="hero" class="hero" aria-labelledby="hero-heading">
+      <div class="hero__bg" style="background-image: url('images/hero.png');"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content container">
+        <p class="hero__eyebrow" id="hero-eyebrow">Spilsby, Lincolnshire</p>
+        <h1 id="hero-heading">Heating You Can<br /><span class="hero__highlight">Trust — All Year Round</span></h1>
+        <p class="hero__sub" id="hero-subheading">
+          Oil boiler and heat pump specialists serving homes across Lincolnshire.
+          Professional, reliable, and always at a fair price — from a name your neighbours already recommend.
+        </p>
+        <div class="hero__ctas">
+          <a href="#contact" class="btn btn--primary btn--lg" id="hero-quote-btn">Get a Free Quote</a>
+          <a href="#services" class="btn btn--ghost btn--lg" id="hero-services-btn">See Our Services</a>
+        </div>
+        <div class="hero__badges">
+          <div class="badge" id="hero-badge-1">
+            <span class="badge__icon" aria-hidden="true">✓</span>
+            <span>OFTEC Registered</span>
+          </div>
+          <div class="badge" id="hero-badge-2">
+            <span class="badge__icon" aria-hidden="true">✓</span>
+            <span>Fair, Transparent Pricing</span>
+          </div>
+          <div class="badge" id="hero-badge-3">
+            <span class="badge__icon" aria-hidden="true">✓</span>
+            <span>Locally Based &amp; Trusted</span>
+          </div>
+        </div>
+      </div>
+      <a href="#services" class="hero__scroll" aria-label="Scroll to services" id="hero-scroll">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </a>
+    </section>
+
+    <!-- ═══════════════ TRUST BAR ═══════════════ -->
+    <section class="trust-bar" aria-label="Trust indicators">
+      <div class="container trust-bar__inner">
+        <div class="trust-bar__item" id="trust-1">
+          <svg class="trust-bar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <div>
+            <strong>Fully Insured</strong>
+            <span>Public liability covered</span>
+          </div>
+        </div>
+        <div class="trust-bar__item" id="trust-2">
+          <svg class="trust-bar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <div>
+            <strong>Prompt &amp; Punctual</strong>
+            <span>Arrives when we say we will</span>
+          </div>
+        </div>
+        <div class="trust-bar__item" id="trust-3">
+          <svg class="trust-bar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          <div>
+            <strong>Honest Pricing</strong>
+            <span>No hidden extras, ever</span>
+          </div>
+        </div>
+        <div class="trust-bar__item" id="trust-4">
+          <svg class="trust-bar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <div>
+            <strong>5-Star Reviews</strong>
+            <span>Recommended by locals</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ SERVICES ═══════════════ -->
+    <section id="services" class="services section" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label" id="services-label">What We Do</p>
+          <h2 id="services-heading">Heating Services That Work<br />As Hard As You Do</h2>
+          <p class="section-intro" id="services-intro">
+            Whether you're running on oil or looking to make the switch to greener energy,
+            Dan has the expertise to install, service, or repair your system — quickly, cleanly, and correctly first time.
+          </p>
+        </div>
+
+        <div class="services__grid">
+
+          <!-- Oil Boiler Installation -->
+          <article class="service-card" id="service-oil-install">
+            <div class="service-card__img-wrap">
+              <img src="images/oil-boiler.png" alt="Newly installed outdoor oil boiler unit against a brick wall" loading="lazy" />
+              <div class="service-card__tag">Oil Boilers</div>
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon" aria-hidden="true">🔧</div>
+              <h3>Oil Boiler Installation</h3>
+              <p>
+                Upgrading your old boiler or building a new heating system from scratch? Dan will survey your home, recommend the right unit for your needs, and fit it to the highest standard — with minimal disruption and a thorough handover so you know exactly how everything works.
+              </p>
+              <ul class="service-card__features" role="list">
+                <li>Full system design &amp; survey</li>
+                <li>Supply &amp; fit of new boiler</li>
+                <li>All pipework &amp; commissioning</li>
+                <li>OFTEC certification provided</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Oil Boiler Servicing -->
+          <article class="service-card" id="service-oil-service">
+            <div class="service-card__img-wrap">
+              <img src="images/oil-boiler.png" alt="Oil boiler system components and controls" loading="lazy" style="object-position: center 60%;" />
+              <div class="service-card__tag">Annual Service</div>
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon" aria-hidden="true">📋</div>
+              <h3>Oil Boiler Servicing</h3>
+              <p>
+                An annual service isn't just good practice — it keeps your boiler running efficiently, protects your warranty, and catches small problems before they become expensive ones. Dan carries out a thorough, methodical check of every component, and he'll tell you exactly what he finds.
+              </p>
+              <ul class="service-card__features" role="list">
+                <li>Full strip-down &amp; inspection</li>
+                <li>Burner &amp; flue efficiency check</li>
+                <li>Filter &amp; nozzle replacement</li>
+                <li>Honest, detailed report</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Oil Boiler Repair -->
+          <article class="service-card service-card--featured" id="service-oil-repair">
+            <div class="service-card__img-wrap">
+              <img src="images/oil-boiler.png" alt="Oil boiler installation detail showing neat pipework" loading="lazy" />
+              <div class="service-card__tag service-card__tag--featured">Most Common</div>
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon" aria-hidden="true">🛠️</div>
+              <h3>Oil Boiler Repair</h3>
+              <p>
+                No hot water. No heat. It always happens at the worst time. Dan responds quickly, diagnoses accurately, and fixes it right — no guesswork, no unnecessary parts, no inflated call-out fees. Just straightforward, effective repair by someone who genuinely knows oil systems inside and out.
+              </p>
+              <ul class="service-card__features" role="list">
+                <li>Fast response times</li>
+                <li>Accurate fault diagnosis</li>
+                <li>Quality replacement parts</li>
+                <li>No fix, no fee policy</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Heat Pump Installation -->
+          <article class="service-card" id="service-hp-install">
+            <div class="service-card__img-wrap">
+              <img src="images/heat-pump.png" alt="Modern air source heat pump unit installed on a garden patio" loading="lazy" />
+              <div class="service-card__tag">Heat Pumps</div>
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon" aria-hidden="true">🌿</div>
+              <h3>Heat Pump Installation</h3>
+              <p>
+                Air source heat pumps are one of the most efficient ways to heat your home — and with government grants available, now is a great time to make the switch. Dan is experienced in full heat pump system design and installation, ensuring your home is ready to run cleanly and efficiently for decades to come.
+              </p>
+              <ul class="service-card__features" role="list">
+                <li>Full system design &amp; sizing</li>
+                <li>MCS-compliant installation</li>
+                <li>Grant application guidance</li>
+                <li>System optimisation &amp; handover</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Heat Pump Service & Repair -->
+          <article class="service-card" id="service-hp-service">
+            <div class="service-card__img-wrap">
+              <img src="images/heat-pump.png" alt="Air source heat pump with internal components visible" loading="lazy" style="object-position: right center;" />
+              <div class="service-card__tag">Heat Pumps</div>
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon" aria-hidden="true">⚡</div>
+              <h3>Heat Pump Service &amp; Repair</h3>
+              <p>
+                Heat pumps are sophisticated systems that benefit from regular professional attention. Whether your unit needs its annual health check or something isn't quite performing as it should, Dan has the technical knowledge to service and repair modern heat pump systems with confidence.
+              </p>
+              <ul class="service-card__features" role="list">
+                <li>Annual performance check</li>
+                <li>Refrigerant &amp; pressure inspection</li>
+                <li>Controls &amp; thermostat calibration</li>
+                <li>Fault diagnosis &amp; repair</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- General Plumbing -->
+          <article class="service-card" id="service-plumbing">
+            <div class="service-card__img-wrap service-card__img-wrap--icon">
+              <div class="service-card__placeholder-icon" aria-hidden="true">🚿</div>
+              <div class="service-card__tag">Plumbing</div>
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon" aria-hidden="true">💧</div>
+              <h3>General Plumbing</h3>
+              <p>
+                From a dripping tap to a new bathroom installation, Dan brings the same care and precision to all plumbing work. If you've got a job that needs doing properly, give him a call — chances are he can help.
+              </p>
+              <ul class="service-card__features" role="list">
+                <li>Leak detection &amp; repair</li>
+                <li>Radiator installation &amp; balancing</li>
+                <li>Hot water cylinder work</li>
+                <li>General household plumbing</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ ABOUT ═══════════════ -->
+    <section id="about" class="about section" aria-labelledby="about-heading">
+      <div class="container about__inner">
+        <div class="about__visual" id="about-visual">
+          <div class="about__img-frame">
+            <img src="images/oil-boiler.png" alt="A neatly installed oil boiler — the kind of work Dan is known for" loading="lazy" />
+          </div>
+          <div class="about__stat-card" id="about-stat-experience">
+            <span class="about__stat-number">10+</span>
+            <span class="about__stat-label">Years Experience</span>
+          </div>
+          <div class="about__stat-card about__stat-card--alt" id="about-stat-reviews">
+            <span class="about__stat-number">⭐⭐⭐⭐⭐</span>
+            <span class="about__stat-label">5-Star Reviews</span>
+          </div>
+        </div>
+
+        <div class="about__content" id="about-content">
+          <p class="section-label" id="about-label">About Dan</p>
+          <h2 id="about-heading">Your Local Heating Expert —<br />Not a Call Centre</h2>
+          <p class="about__lead" id="about-lead">
+            When you call D Ellerby Heating, you speak to Dan. When Dan comes to your home,
+            he listens, explains what he's doing, and doesn't leave until the job is done right.
+          </p>
+          <p id="about-p1">
+            Based in Spilsby, Dan has been keeping Lincolnshire homes warm for over a decade.
+            He started D Ellerby Heating because he believed local homeowners deserved a heating engineer
+            who treated them like a neighbour — honest about what needed doing, clear about the cost,
+            and reliable enough that you'd happily recommend him to your family.
+          </p>
+          <p id="about-p2">
+            Dan specialises in oil-fired heating systems — the backbone of rural Lincolnshire homes —
+            and has built deep expertise in modern heat pump technology as more homeowners look to
+            lower their carbon footprint and energy bills. Whether your system is thirty years old
+            or brand new, he'll know it.
+          </p>
+          <p id="about-p3">
+            No subcontractors. No upselling. No jargon. Just solid, professional work at a fair price,
+            from someone who takes pride in getting it right.
+          </p>
+          <div class="about__values" id="about-values">
+            <div class="about__value">
+              <span class="about__value-icon" aria-hidden="true">🤝</span>
+              <div>
+                <strong>Honest &amp; Straight-Talking</strong>
+                <p>You'll always know what needs doing and why — and what doesn't.</p>
+              </div>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon" aria-hidden="true">📍</span>
+              <div>
+                <strong>Genuinely Local</strong>
+                <p>Based in Spilsby. Fast response times across Lincolnshire.</p>
+              </div>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon" aria-hidden="true">🎯</span>
+              <div>
+                <strong>First-Time Fixes</strong>
+                <p>Thorough diagnosis means the right repair — first visit, every time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+    <section id="testimonials" class="testimonials section" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header section-header--light">
+          <p class="section-label section-label--light" id="testimonials-label">What Customers Say</p>
+          <h2 id="testimonials-heading">Don't Just Take Our Word For It</h2>
+          <p class="section-intro section-intro--light" id="testimonials-intro">
+            Real reviews from real people across Lincolnshire. No scripts, no incentives — just honest feedback from customers who'd happily call Dan again.
+          </p>
+        </div>
+
+        <div class="testimonials__grid">
+
+          <blockquote class="testimonial-card" id="testimonial-david">
+            <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-card__quote">
+              "Dan was informative, polite and knowledgeable about my boiler and system. He arrived when arranged and carried out a very thorough service at a reasonable price."
+            </p>
+            <footer class="testimonial-card__footer">
+              <div class="testimonial-card__avatar" aria-hidden="true">DA</div>
+              <div>
+                <cite class="testimonial-card__name">David Ashton-Hill</cite>
+                <span class="testimonial-card__location">Lincolnshire</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card testimonial-card--featured" id="testimonial-brian">
+            <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-card__quote">
+              "I can't recommend Dan enough, he is very reasonable with his prices and an altogether excellent human being."
+            </p>
+            <footer class="testimonial-card__footer">
+              <div class="testimonial-card__avatar testimonial-card__avatar--featured" aria-hidden="true">BR</div>
+              <div>
+                <cite class="testimonial-card__name">Brian Rundle</cite>
+                <span class="testimonial-card__location">Lincolnshire</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card" id="testimonial-michael">
+            <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-card__quote">
+              "Dan is a very competent person, easy to talk to, and he does a brilliant job at a very reasonable price, very reliable — we definitely recommend him."
+            </p>
+            <footer class="testimonial-card__footer">
+              <div class="testimonial-card__avatar" aria-hidden="true">MA</div>
+              <div>
+                <cite class="testimonial-card__name">Michael Arnold</cite>
+                <span class="testimonial-card__location">Lincolnshire</span>
+              </div>
+            </footer>
+          </blockquote>
+
+        </div>
+
+        <p class="testimonials__note" id="testimonials-note">
+          All reviews are genuine and unedited. We believe good work speaks for itself.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════ FINAL CTA ═══════════════ -->
+    <section id="contact" class="cta section" aria-labelledby="cta-heading">
+      <div class="cta__bg" style="background-image: url('images/heat-pump.png');"></div>
+      <div class="cta__overlay"></div>
+      <div class="container cta__inner">
+        <p class="section-label section-label--light" id="cta-label">Ready to Get Started?</p>
+        <h2 id="cta-heading">Let's Get Your Home<br />Warm &amp; Working Again</h2>
+        <p class="cta__sub" id="cta-sub">
+          Whether you need an urgent repair, a long-overdue service, or you're ready to upgrade to a heat pump —
+          Dan is ready to help. Call for a chat, or drop a message and he'll be in touch the same day.
+        </p>
+        <div class="cta__actions">
+          <a href="tel:+441790XXXXXX" class="btn btn--primary btn--xl" id="cta-call-btn">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 5.55 5.55l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call Dan Now
+          </a>
+          <a href="mailto:info@dellerbyheating.co.uk" class="btn btn--ghost btn--xl" id="cta-email-btn">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Send a Message
+          </a>
+        </div>
+        <div class="cta__detail" id="cta-detail">
+          <span>📍 Based in Spilsby, Lincolnshire</span>
+          <span>⏰ Mon–Fri 8am–6pm, Sat by arrangement</span>
+          <span>🚗 Covering all of East Lincolnshire</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer" id="site-footer">
+    <div class="container footer__inner">
+      <div class="footer__brand" id="footer-brand">
+        <span class="footer__logo">🔥 D Ellerby Heating</span>
+        <p>Your trusted local heating engineer in Spilsby, Lincolnshire. Oil boiler and heat pump specialists.</p>
+      </div>
+      <div class="footer__links" id="footer-links">
+        <h3>Services</h3>
+        <ul role="list">
+          <li><a href="#service-oil-install">Oil Boiler Installation</a></li>
+          <li><a href="#service-oil-service">Oil Boiler Servicing</a></li>
+          <li><a href="#service-oil-repair">Oil Boiler Repair</a></li>
+          <li><a href="#service-hp-install">Heat Pump Installation</a></li>
+          <li><a href="#service-hp-service">Heat Pump Service &amp; Repair</a></li>
+          <li><a href="#service-plumbing">General Plumbing</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact" id="footer-contact">
+        <h3>Get in Touch</h3>
+        <ul role="list">
+          <li><a href="tel:+441790XXXXXX">📞 01790 XXX XXX</a></li>
+          <li><a href="mailto:info@dellerbyheating.co.uk">✉️ info@dellerbyheating.co.uk</a></li>
+          <li>📍 Spilsby, Lincolnshire</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="footer-year"></span> D Ellerby Heating. All rights reserved.</p>
+      <p>Registered in England &amp; Wales</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
